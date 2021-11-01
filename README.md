@@ -1,4 +1,4 @@
-# Test StockBit Rizky Abdulrachman (TypeScript) v2.0.x
+# Test Kumparan Rizky Abdulrachman (TypeScript) v2.0.x
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
