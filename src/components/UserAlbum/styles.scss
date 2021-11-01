@@ -1,0 +1,104 @@
+@import "../../sass/color";
+span, p , b, div{
+  font-family: Poppins;
+  color: #666666;
+}
+
+.userpost-profile-details {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 60%
+}
+
+.header-post {
+  width: 100%;
+  background-color: #FAFBFF;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.content-header-post {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+
+.container-post {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-album {
+  width: 100%;
+  display: flex;
+  
+}
+
+.content-post {
+  background-color: #a29bfe;
+  width: 90%;
+  margin-top: 20px;
+  border-radius: 10px;
+
+  &.white{
+    background-color: white !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+}
+
+.post-txt { 
+  color: white;
+  margin: 20px; 
+}
+
+.post-title-txt { 
+  color: white;
+  margin-left: 20px; 
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.comment-txt {
+  text-align: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.container-list-album {
+  height: 40vh;
+  overflow: scroll;
+  
+  // background-color: red;
+}
+
+.container-list-photo {
+  height: 40vh;
+  overflow: scroll;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.list-photo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: center;
+  overflow: scroll;
+  width: 90%;
+}
+
+
+
+  
+

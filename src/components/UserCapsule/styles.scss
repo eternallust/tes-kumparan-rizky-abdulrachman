@@ -1,0 +1,31 @@
+@import "../../sass/color";
+.user-capsule {
+  width: 99%;
+ background-color: white;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
+
+  &.active {
+    background-image: linear-gradient(to right, #7CB8F7 , #2A8BF2);
+  }
+}
+
+.content-user-capsule {
+  align-items: center;
+  display: flex;
+}
+
+.profile-photo-capsule {
+  width: 54px;
+  height: 54px;
+  border-radius: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 20px;
+}
+
+
+
+  
+

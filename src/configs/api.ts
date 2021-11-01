@@ -7,8 +7,19 @@ const host = axios.create({
 // type body
 
 const api = {
-  getUsers: () => host.get("users"),
   getSeasons: () => host.get("seasons"),
+  getUsers: () => host.get("users"),
+  getPost: (userId: number) => host.get(`posts/${userId}`),
+  getCommentPost: (postId: number) => host.get(`posts/${postId}/comments`),
+  getUserAlbums: (userId: number) => host.get(`users/${userId}/albums`),
+  getPhotoAlbums: (albumId: number) => host.get(`albums/${albumId}/photos`),
+  addPost: (body: any) => host.post("posts", body),
+  addComment: (body: any) => host.post("comments", body),
+  updatePost: (postId: number, body: any) => host.put(`posts/${postId}`, body),
+  deletePost: (postId: number) => host.delete(`posts/${postId}`),
+  getUserById: (userId: number) => host.get(`users/${userId}`),
+  getPostByUserId: (userId: number) => host.get(`users/${userId}/posts`),
+  getPhotos: (albumId: number) => host.get(`albums/${albumId}/photos`),
 };
 
 export default api;
