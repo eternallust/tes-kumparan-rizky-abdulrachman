@@ -58,8 +58,6 @@ const Component = ({ data, name, loading }: Props) => {
     );
     setModalOpen(false);
   };
-
-  console.log("app", appState);
   return (
     <div className="userpost-profile-details">
       <div style={{ width: "100%" }}>

@@ -154,7 +154,6 @@ export const deletePost = (postId: number) => async (dispatch: Dispatch) => {
 export const updatePost = (postId: number, body: any) => async (
   dispatch: Dispatch
 ) => {
-  console.log("inilah", postId);
   try {
     dispatch({ type: UPDATE_POST_PENDING });
     const res = await API.updatePost(postId, body);

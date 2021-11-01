@@ -62,7 +62,6 @@ export default (state = initialState, { type, payload }: Action) => {
     case ADD_COMMENT_PENDING:
       return { ...state, isLoadingGetCommentPosts: true };
     case ADD_COMMENT_SUCCESS:
-      console.log("payloadnya", payload.data);
       return {
         ...state,
         commentPosts: [payload.data, ...state.commentPosts],
